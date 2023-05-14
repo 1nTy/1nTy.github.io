@@ -5,7 +5,7 @@ theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-baseurl: "1nTy.github.io"
+baseurl: "/1nTy.github.io"
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -18,13 +18,12 @@ timezone: Europe/Rome
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Federico Fini # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Guide e trucchi per Microsoft NAV, Business Central e molto altro # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
-
+  Guide e trucchi per Microsoft NAV, Business Central e molto altro
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://1nty.github.io/"
 
@@ -37,11 +36,11 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: Federico Fini
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
+    # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/username # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -80,7 +79,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://media.licdn.com/dms/image/D4D03AQGe8Z00jITn5A/profile-displayphoto-shrink_800_800/0/1676202907644?e=1689206400&v=beta&t=TjYHrYy1FRW-Y0P9_BEnN3qF5cw0KLuZUteazB-2mDk
 
 # boolean type, the global switch for TOC in posts.
 toc: true
